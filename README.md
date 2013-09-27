@@ -26,6 +26,12 @@ MOODS stores an array of dictionaries that have a START, END, and mood TYPE. TYP
 The SEGMENT object stores an array of dictionaries that describe the structure of the song. Each dictionary has START, END, TEXT and TYPE keys. START and END define the location of the segment in the song. TYPE will either be "Chorus", "Verse" or a lowercase character. Segments that are very similary musically will have the same TYPE.
 
 Examples
-Curl
-curl -F "audiofile=@name\_of\_file.mp3" <FIXME>
-curl <URL><ID>
+--------
+##Curl
+
+curl -F "audiofile=@name\_of\_file.mp3" http://devapi.gracenote.com/v1/timeline/
+curl http://devapi.gracenote.com/v1/timeline/<id>
+
+
+##Python
+[example script](example.py)
