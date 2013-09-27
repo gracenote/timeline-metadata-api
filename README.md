@@ -30,6 +30,7 @@ Examples
 ##Curl
 
 curl -F "audiofile=@name\_of\_file.mp3" http://devapi.gracenote.com/v1/timeline/
+
 curl http://devapi.gracenote.com/v1/timeline/<id>
 
 
