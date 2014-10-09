@@ -1,7 +1,6 @@
 # Gracenote Open Source License, Version 1.0 #
 
-Copyright © Gracenote, Inc. 2007.
-All rights reserved.
+© 2000 – present. Gracenote, Inc. All Rights Reserved.
 
 License for redistribution and use of this software in source and/or binary forms, with or without modification, is granted, subject to and limited by the following terms and conditions:
 
